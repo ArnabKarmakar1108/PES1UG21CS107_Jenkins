@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-    stages {
+    stages amish{
         stage('Build') {
             steps {
                 echo 'Building...'
