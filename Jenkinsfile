@@ -1,10 +1,10 @@
 pipeline {
     agent any
 
-    stages amish{
+    stages {
         stage('Build') {
             steps {
-                echo 'Building...'
+                ech 'Building...'
                 // Your build commands here
                 // For example:
                 // sh 'make'
